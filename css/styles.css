@@ -1,0 +1,274 @@
+#title {
+  background-color: #ff4c68;
+  padding: 3% 15%;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1, h2, h3, body {
+  font-family: "Montserrat";
+}
+
+.main-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.brandss {
+  padding: 1%;
+}
+
+/* navbar  */
+
+.row {
+  padding-top: 4rem;
+}
+
+.navbar {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.01rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tindog-title {
+  font-size: 2.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title image  */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left : 57%;
+}
+
+/* features section  */
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+@media (max-width: 992px){
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+.sniff-txt{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#footer{
+  background-color: rgb(255, 255, 255);
+  padding-top: 3rem;
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: "Montserrat-Black";
+  padding-top: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+.footer-txt {
+  font-size: 3rem;
+  color: white;
+  
+}
+
+
+/* pricing css */
+
+.db-bk-color-one {
+  background-color: #f73c3c;
+}
+
+.db-bk-color-two {
+  background-color: #f73c3c;
+}
+
+.db-bk-color-three {
+  background-color: #f73c3c;
+}
+
+.db-bk-color-six {
+  background-color: #f73c3c;
+}
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.db-padding-btm {
+  padding-bottom: 50px;
+}
+.db-button-color-square {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.50);
+  border: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+  .db-button-color-square:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.50);
+      border: none;
+  }
+
+
+.db-pricing-eleven {
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  color: #fff;
+  line-height: 30px;
+}
+
+  .db-pricing-eleven ul {
+      list-style: none;
+      margin: 0;
+      text-align: center;
+      padding-left: 0px;
+  }
+
+      .db-pricing-eleven ul li {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          cursor: pointer;
+      }
+
+          .db-pricing-eleven ul li i {
+              margin-right: 5px;
+          }
+
+
+  .db-pricing-eleven .price {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px 20px 20px 20px;
+      font-size: 60px;
+      font-weight: 900;
+      color: #FFFFFF;
+  }
+
+      .db-pricing-eleven .price small {
+          color: #B8B8B8;
+          display: block;
+          font-size: 12px;
+          margin-top: 22px;
+      }
+
+  .db-pricing-eleven .type {
+      background-color: #f68f8f;
+      padding: 50px 20px;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 30px;
+  }
+
+  .db-pricing-eleven .pricing-footer {
+      padding: 20px;
+  }
+
+.db-attached > .col-lg-4,
+.db-attached > .col-lg-3,
+.db-attached > .col-md-4,
+.db-attached > .col-md-3,
+.db-attached > .col-sm-4,
+.db-attached > .col-sm-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+  margin-top: 10px;
+}
+
+  .db-pricing-eleven.popular .price {
+      padding-top: 80px;
+  }
